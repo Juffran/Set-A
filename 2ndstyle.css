@@ -1,0 +1,86 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:center;
+    background-image: url("img/bmw_k100_motorcycle_bike_123991_3840x2400.jpg");
+}
+.container{
+    margin-top:50px;
+    background-color:white;
+    text-align:center;
+   width:550px;
+   margin-left:400px;
+   padding-bottom:20px;
+   box-shadow: 7px 7px 1px rgba(255, 255, 255, 0.5),
+   -7px -7px 1px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+    color:gray;
+    padding-top:20px;
+}
+.container .Generate-container{
+    text-align:justify;
+    float:left;
+    margin-left:32px;
+    cursor: pointer;
+}
+.container .Generate-container p{
+    color:gray;
+    font-size:14px;
+    font-weight:bold;
+}
+.container .generate-container #generate{
+    background-color: gray;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px rgba(255, 255, 255, 0.5),
+             -6px -6px 2px rgba(0, 0, 0, 0.5);
+}
+.container .Genearate-container button:hover{
+    background-color: rgb(15,214,15);
+    cursor: pointer;
+}
+.container.specific-container{
+      text-align:justify;
+      margin-left:350px;
+}
+.container .sepcific-container p{ 
+     color:gray;
+     font-size:14px;
+     font-weight:bold;
+}
+.container .sepcific-container #colors{ 
+    margin-left: 500px;
+}
+.container .specific-container select{
+     height:30px;
+     width:130px;
+     margin-right:50px;
+     border-radius:8%;
+     padding-left:10px;
+}
+.container .specific-container button{
+    color:whitesmoke;
+    width:60px;
+    height:30px;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px rgba(255, 255, 255, 0.5),
+             -6px -6px 2px rgba(0, 0, 0, 0.5);
+}
+.container .specific-container #show{
+    background-color: gray;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px rgba(255, 255, 255, 0.5),
+             -6px -6px 2px rgba(0, 0, 0, 0.5);
+}
+.container .specific-container #reset{
+    background-color: gray;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px rgba(255, 255, 255, 0.5),
+             -6px -6px 2px rgba(0, 0, 0, 0.5);
+}
+.container .button-container{
+   margin-top: 16px;
+   margin-left: 160px;
+   cursor: pointer;
+}
